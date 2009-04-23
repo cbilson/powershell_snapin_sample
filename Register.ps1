@@ -1,0 +1,1 @@
+installutil /i RussellHealthSnapin\bin\Debug\RussellHealthSnapin.dll
