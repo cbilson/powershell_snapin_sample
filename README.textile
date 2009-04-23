@@ -1,0 +1,8 @@
+h1. Powershell Stuff
+
+h2. Links I Referred To
+* "Powershell Community Extensions":http://www.codeplex.com/Pscx
+* "Extending Windows Powershell with Snap-ins":http://www.wrox.com/WileyCDA/Section/Extending-Windows-Powershell-with-Snap-ins.id-320555.html
+* "Powershell Visual Studio 2008 Templates":http://psvs2008.codeplex.com/
+* "Windows Installer Powershell Addin":http://psmsi.codeplex.com/
+* "Scott Hansleman's Paper on Powershell+SVN Automation":http://www.hanselman.com/blog/PaperManagingLargeScaleSystemDeploymentAndConfigurationWithWindowsPowerShell.aspx
