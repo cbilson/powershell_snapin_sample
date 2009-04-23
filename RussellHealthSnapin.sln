@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussellHealthSnapin", "RussellHealthSnapin\RussellHealthSnapin.csproj", "{3D478184-7187-4FA6-BB39-E0F34D269038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyWebApp", "HealthyWebApp\HealthyWebApp.csproj", "{6856312D-DAC6-43AA-96D8-FF6A79F61020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D478184-7187-4FA6-BB39-E0F34D269038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D478184-7187-4FA6-BB39-E0F34D269038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D478184-7187-4FA6-BB39-E0F34D269038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D478184-7187-4FA6-BB39-E0F34D269038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6856312D-DAC6-43AA-96D8-FF6A79F61020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6856312D-DAC6-43AA-96D8-FF6A79F61020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6856312D-DAC6-43AA-96D8-FF6A79F61020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6856312D-DAC6-43AA-96D8-FF6A79F61020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
