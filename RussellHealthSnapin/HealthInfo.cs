@@ -1,4 +1,4 @@
-﻿namespace RussellHealthSnapin
+namespace RussellHealthSnapin
 {
     public class HealthInfo
     {

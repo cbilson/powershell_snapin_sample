@@ -9,9 +9,28 @@ namespace RussellHealthSnapin
     [Cmdlet(VerbsCommon.Get, "Health")]
     public class GetHealth : Cmdlet
     {
+        public GetHealth()
+        {
+            AppName = "Foo";
+            Server = "dev";
+        }
+
+        [Parameter]
+        public string AppName { get; set; }
+
+        [Parameter]
+        public string Server { get; set; }
+
         protected override void ProcessRecord()
         {
-            var request = WebRequest.Create("http://localhost:12080/Admin/Health");
+            var server = SnapIn.LookupServer(Server);
+            var app = SnapIn.LookupApp(AppName);
+
+            var url = app.GetHealthUrl(server);
+
+            WriteVerbose(String.Format("Trying {0}...", url));
+
+            var request = WebRequest.Create(url);
             var response = request.GetResponse();
 
             var serializer = new JavaScriptSerializer();

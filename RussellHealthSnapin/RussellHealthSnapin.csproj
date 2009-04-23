@@ -33,6 +33,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Management.Automation" />
     <Reference Include="System.Web.Extensions">
@@ -41,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="GetApps.cs" />
     <Compile Include="GetHealth.cs" />
+    <Compile Include="GetServers.cs" />
     <Compile Include="HealthInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerInfo.cs" />
+    <Compile Include="SetAppOffline.cs" />
+    <Compile Include="SetAppOnline.cs" />
     <Compile Include="SnapIn.cs">
       <SubType>Component</SubType>
     </Compile>
