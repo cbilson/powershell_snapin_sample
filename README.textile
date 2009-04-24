@@ -6,3 +6,6 @@ h2. Links I Referred To
 * "Powershell Visual Studio 2008 Templates":http://psvs2008.codeplex.com/
 * "Windows Installer Powershell Addin":http://psmsi.codeplex.com/
 * "Scott Hansleman's Paper on Powershell+SVN Automation":http://www.hanselman.com/blog/PaperManagingLargeScaleSystemDeploymentAndConfigurationWithWindowsPowerShell.aspx
+* "Gallio + Powershell":http://interfacingreality.blogspot.com/2008/09/gallio-powershell.html
+* "Introducting psake":http://codebetter.com/blogs/james.kovacs/archive/2008/06/27/introducing-psake.aspx
+** Kind of like "rake":http://martinfowler.com/articles/rake.html
