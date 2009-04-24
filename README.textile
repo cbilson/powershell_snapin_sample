@@ -9,3 +9,4 @@ h2. Links I Referred To
 * "Gallio + Powershell":http://interfacingreality.blogspot.com/2008/09/gallio-powershell.html
 * "Introducting psake":http://codebetter.com/blogs/james.kovacs/archive/2008/06/27/introducing-psake.aspx
 ** Kind of like "rake":http://martinfowler.com/articles/rake.html
+* "All my other powershell links":http://del.icio.us/cbilson/powershell
